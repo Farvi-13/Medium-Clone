@@ -9,6 +9,7 @@ const config: ConnectionOptions = {
     database: 'railway',
     entities: [__dirname + '/**/*.entity{.ts,.js}'],
     synchronize: true,
+    name: 'default',
     // migrations: [__dirname + '/migrations/**/*{.ts,.js}'],
     // cli: {
     //     migrationsDir: 'src/migrations'
